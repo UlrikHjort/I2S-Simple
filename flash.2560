@@ -1,0 +1,1 @@
+avrdude -pm2560 -carduino -cstk500v2 -P/dev/ttyACM0 -D -Uflash:w:i2s.hex:a
